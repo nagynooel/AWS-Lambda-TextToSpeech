@@ -1,7 +1,9 @@
 # AWS Lambda text_to_speech code
 
 This code uses AWS S3, Poly and Lambda to create a mp3 file from an txt file that is created in an S3 bucket.
+
 You need to set up a S3 trigger to the lambda to work.
+
 It will create it in a output folder with the same name.
 
 ```
